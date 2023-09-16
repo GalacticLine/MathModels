@@ -87,6 +87,7 @@
 * 绘图风格包
 * Kmeans聚类取色器
 * 常用绘图函数
+![图集1](https://github.com/Bomb-Cat/MathModels/assets/128875843/edeab394-786f-409a-8ff3-5e55ed945950)
 
 ### [辅助工具](Tools)
 包含如生成三线表等功能，用于辅助数学建模和数据处理。
