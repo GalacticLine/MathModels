@@ -106,18 +106,16 @@
 ### 运行依赖
 本仓库依赖于Python3.x和以下的Python库：
 
-* numpy
-* pandas
-* matplotlib
-* scipy
-* statsmodels
-* sympy
-* scikit-learn
-* networkx
-* openpyxl
+* [numpy](https://github.com/numpy/numpy)
+* [pandas](https://github.com/pandas-dev/pandas)
+* [matplotlib](https://github.com/matplotlib/matplotlib)
+* [scipy](https://github.com/scipy/scipy)
+* [statsmodels](https://github.com/statsmodels/statsmodels)
+* [sympy](https://github.com/sympy/sympy)
+* [scikit-learn](https://github.com/scikit-learn/scikit-learn)
+* [networkx](https://github.com/networkx/networkx)
 
-
-以上库也是科学计算和数据分析和处理中常用的十分强大的工具。(额外推荐 latex2mathml，这个库可以快速的把latex公式转成mathml格式，方便复制粘贴到word中。)
+以上库也是科学计算和数据分析和处理中常用的十分强大的工具。(额外推荐 [latex2mathml](https://github.com/roniemartinez/latex2mathml)，这个库可以快速的把latex公式转成mathml格式，方便复制粘贴到word中。)
 
 
 ** 本仓库中部分的模型，在上述库（如scikit-learn）中已经提供了现成的类或函数，且更为精确、完善且成熟。
