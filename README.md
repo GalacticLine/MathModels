@@ -1,4 +1,5 @@
 # 数学模型库
+![Python 3.10](https://img.shields.io/badge/Python-3.10-blue.svg)
 
 储存了常用的一些数学模型以及其他，共包含以下4个部分：数据分析及处理、数学模型、绘图、辅助工具。
 
