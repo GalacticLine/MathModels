@@ -207,12 +207,11 @@ class DBSCAN(ClusterBase):
             # 获取邻域样本
             neighbors = np.where(np.linalg.norm(data[i] - data, axis=1) <= eps)[0]
             neighbors = neighbors[neighbors != i]
-
-            n_neighbor = len(neighbors)
-            if n_neighbor >= min_samples:
+            
+            if len(neighbors) >= min_samples:
                 labels[i] = cluster_id
 
-                while n_neighbor > 0:
+                while len(neighbors) > 0:
                     neighbor = neighbors[0]
 
                     # 如果邻域样本未分类
