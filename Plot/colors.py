@@ -28,18 +28,18 @@ def color_to_lum(color):
 class ColorGetter:
     def __init__(self, arr):
         """
-        颜色数组类
-        :param arr: 数组
+        取色器类
+        :param arr: 矩阵
         """
         self.data = arr
 
     @classmethod
     def from_image(cls, path, num):
         """
-        使用k-means聚类从图像获取颜色数组
+        使用k-means聚类从图像获取颜色
         :param path: 图像路径
         :param num: 颜色数
-        :return: 颜色数组
+        :return: 取色器实例
         """
         image = Image.open(path)
         image = image.resize((300, 300))
@@ -63,7 +63,7 @@ class ColorGetter:
 
     def plot(self):
         """
-        绘制颜色数组色卡
+        绘制色卡
         :return:
         """
         plt.figure()
