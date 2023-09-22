@@ -56,7 +56,7 @@ def sp_logarithmic():
 
 def get_fit_func(name, is_sympy=False):
     """
-    获取拟合函数
+    获取当前模块下的拟合函数
     :param name: 拟合函数名
     :param is_sympy: 是否获取sympy版函数
     :return: 函数对象
