@@ -102,7 +102,7 @@ def d_elu(x, alpha=1.0):
 
 def get_active_func(name, derivative=False):
     """
-    获取激活函数
+    获取当前模块下的激活函数
     :param name: 函数名
     :param derivative: 是否为对应导函数
     :return: 函数对象
